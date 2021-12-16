@@ -1,0 +1,14 @@
+.red{
+color: rgb(209, 27, 27);
+background-color: antiquewhite;
+height: 1cm;
+border: 6cm;
+border-color: darkred;
+padding: 3%;
+margin-bottom: auto;
+}
+
+.green{
+color: green;
+background-color: aqua;
+}

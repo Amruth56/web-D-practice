@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 15px 32px;
+            margin: 10px;
+            /* border: 2px solid red; */
+            background-color: rgb(243, 243, 223);
+            box-shadow: 7px 10px rgb(0, 187, 255);
+        }
+
+        #card2{
+            box-shadow: 7px -10px 10px rgb(0,187,255);
+            
+        }
+        #card2 h1{
+            text-shadow: 3px 3px 5px  rgb(10, 0, 0);
+            color: rgb(245, 246, 247);
+        }
+
+        /* syntex--> +ve(right n bottom), -(left n top), blur radius, spread radius */
+        #card3{
+            box-shadow: 7px 10px 6px 3px rgb(0,187,255);
+        }
+
+        /* box shadow for 2 or more colors we separate them with comma */
+        #card4{
+            box-shadow: 8px 8px 12px pink, 11px 12px 18px yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <dic class="container">
+        <div class="card" id="card1">
+        <h1>    card1  </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempore quis enim, nemo eaque, maiores voluptate blanditiis nobis qui explicabo sunt alias recusandae consequatur fugit voluptas. Pariatur enim cumque ab?
+        </p>
+        </div>
+        <div class="card" id="card2">
+        <h1>    card2  </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempore quis enim, nemo eaque, maiores voluptate blanditiis nobis qui explicabo sunt alias recusandae consequatur fugit voluptas. Pariatur enim cumque ab?
+        </p>
+        </div>
+        <div class="card" id="card3">
+        <h1>    card3  </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempore quis enim, nemo eaque, maiores voluptate blanditiis nobis qui explicabo sunt alias recusandae consequatur fugit voluptas. Pariatur enim cumque ab?
+        </p>
+        </div>
+
+        <div class="card" id="card4">
+        <h1>    card4  </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempore quis enim, nemo eaque, maiores voluptate blanditiis nobis qui explicabo sunt alias recusandae consequatur fugit voluptas. Pariatur enim cumque ab?
+        </p>
+        </div>
+
+        <div class="card" id="card5">
+        <h1>    card5  </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempore quis enim, nemo eaque, maiores voluptate blanditiis nobis qui explicabo sunt alias recusandae consequatur fugit voluptas. Pariatur enim cumque ab?
+        </p>
+        </div>
+
+        <div class="card" id="card6">
+        <h1>    card6  </h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempore quis enim, nemo eaque, maiores voluptate blanditiis nobis qui explicabo sunt alias recusandae consequatur fugit voluptas. Pariatur enim cumque ab?
+        </p>
+        </div>
+
+    </dic>
+</body>
+</html>

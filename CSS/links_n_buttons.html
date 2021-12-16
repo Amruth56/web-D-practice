@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling links and button</title>
+    <style>
+        .container{
+            border: 3px solid red;
+            background-color: rgb(253, 239, 222);
+            margin: 24px auto;
+            padding: 24px;
+            width: 566px;
+            border-radius: 35px;
+        }
+        a{
+            text-decoration: none; /*to remove the hyperlink from the read more opt*/
+        }
+        .btn:hover{
+            color: black;
+            background-color:rgb(255, 255, 2);
+            border: 2 px solid red;
+        }
+        .btn{
+            color: red;
+            background-color: rgb(209, 230, 248);
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            font-weight:400;
+            padding: 5px ;
+            border: none;
+            cursor: pointer; /*to get a pointer cursor when we take near to the button*/
+            font-size: 13px;
+            border-radius: 5px;
+            /* text-decoration: none; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>HEADING</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur incidunt commodi eligendi deserunt atque, dolor odit deleniti ipsam molestiae laudantium natus laboriosam illum cupiditate harum. Sit nihil, quibusdam laborum quisquam repellat reprehenderit ea dolor?</p>
+        <a href="https://google.com" class="btn">READ MORE</a>
+        <button class="btn">CONTACT US</button>
+    </div>
+
+</body>
+</html>

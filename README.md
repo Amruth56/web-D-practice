@@ -1,3 +1,3 @@
 # web-D-practice
 
-html and css tutorials
+html, css and JavaScript practice 
